@@ -1,0 +1,55 @@
+.header{
+    width:1350px;
+    height:80px;
+    background-color:red;
+    display:flex;
+}
+.container{
+    height:100%;
+    width:50%;
+    align-items:center;
+    padding-left:20px;
+
+}
+.sub-container{
+    height:100%;
+    width:50%;
+    background-color:blue;
+    overflow:hidden;
+}
+.sub-container ul li{
+    list-style-type:none;
+    display:inline;
+}
+/* .sub-container ul li:hover{
+
+   background-color:white;
+} */
+.list-ele{
+    background-color:red;
+    display:inline;
+    position:relative;
+    top:50px;
+   /* padding-top:30px;
+   padding-bottom:30px; */
+   /* padding-left:40px;
+   padding-right:40px; */
+   margin:20px;
+   /* border-radius:50px 50px 0 0; */
+}
+.new{
+    background-color:orange;
+    width:10px;
+    height:100px;
+    position:absolute;
+}
+
+/* .list-ele:hover{
+    background-color:white;
+} */
+/* display:flex to be written in parent div but display:inline in the particular div */
+/* .list-ele{
+   position:relative;
+    top:30px;
+    left:20px;
+} */

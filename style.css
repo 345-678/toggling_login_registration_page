@@ -1,0 +1,138 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+body{
+    background-image:url("background.jpg");
+    width:100%;
+    height:100%;
+}
+.container{
+    background:transparent;
+    height:658px;
+    width:100%;
+    position:absolute;
+}
+.mini-container{
+    background-color:rgb(65, 17, 110);
+    height:380px;
+    width:380px;
+    position:relative;
+    margin:6% auto;
+    border-radius:20px;
+    padding-top:5px;
+    overflow:hidden;
+    /* padding-left:10px; */
+    /* margin:auto take element to center 6%n is for top and bottom and auto is for left right */
+}
+.button-box{
+    border-radius:20px;
+    box-shadow:0 0 5px 5px lightblue;
+    /* 0 0 make box shadow all the side 5px is blurr radius */
+    width:300px;
+    position:relative;
+    margin:35px auto;
+    display:flex;
+    
+    /* this take box to the center position */
+    /* margin-left:30px;
+   margin-top:20px; */
+}
+.toggle-btn{
+   padding:10px 45px;
+   position:relative;
+   background:transparent;
+   border:0;
+   cursor:pointer;
+   outline:none;
+   color:white;
+/* display inline-block is used to take the block in horizontal form like inline text */
+/* position:relative=the div will move relative to its original position leaving a gap ,if we use property like top:30px bottom:60px in the same css   */
+/* position:absolute=the div will move left right top buttom relative to its parent div position */
+/* position:static=by default */
+/* position:fixed=this is relative to the browser window, right:4px; buttom:2px ; now the div will remain fixed in the position and doesnt move if we scroll the page  top to buttom*/
+/* position:sticky= if we scroll the page the div remains sticked to the same position ,this can be used in navbar*/
+}
+#btn{
+    top:0;
+    left:0;
+    background-color:red;
+    height:100%;
+    border-radius:20px;
+    width:150px;
+    position:absolute;
+}
+.micro-container{
+    margin:20px auto;
+     text-align:center;
+}
+.micro-container img{
+   width:30px;
+   padding-left:7px;
+   
+    
+}
+/* .input-group{
+    display:flex;
+    margin:30px auto;
+}
+.input-field{
+    padding-top:10px;
+    
+} */
+.input-group{
+    /* margin:20px auto; */
+    top:180px;
+    left:10px;
+    right:50px;
+    width:280px;
+    position:absolute;
+}
+#login{
+    padding-left:60px;
+    
+}
+.input-field{
+    width:100%;
+    height:20px;
+    border-top:0;
+    margin:5px auto;
+    border-left:0;
+    border-right:0;
+    border-bottom:1px solid;
+    outline:none;
+    background:transparent;
+}
+.btn{
+    width:85%;
+    height:30px;
+    border-radius:20px;
+    background:transparent;
+    display:block;
+    margin:20px auto;
+}
+.check{
+    padding-top:20px;
+}
+/* .extra{
+    margin:20px 30px 20px 30px;
+} */
+/* .main{
+    width:100%;
+    display:inline-block;
+ }  */
+#login{
+    left:10px;
+ }
+#register{
+    left:450px;
+ }
+ .extra{
+    font-size:13px;
+    color:white;
+    padding-left:10px;
+    padding-top:10px;
+    margin-top:10px;
+ }
